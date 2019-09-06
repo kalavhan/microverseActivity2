@@ -11,11 +11,10 @@
     <script  src="js/index.js"></script>
     <header id="header">
       <img src="img/logo.png" alt="logo">
-      <nav id="nav-bar">
-        <ul>
-          <li><a href="#" class="nav-link" href="#home">Home</a></li>
-          <li><a href="#" class="nav-link" href="aboutus">About us</a></li>
-          <li><a href="#" class="nav-link" href="contact">Contact us</a></li>
+      <nav id="nav-bar" class="navbar">
+          <div><a href="#" class="nav-link" href="#home">Home</a></div>
+          <div><a href="#" class="nav-link" href="#home">About us</a></div>
+          <div><a href="#" class="nav-link" href="#home">Contact us</a></div>
       </nav>
     </header><!-- /header -->
     <section id="home">
@@ -31,8 +30,8 @@
       
     </section>
     <section id="contact">
-      <form id="form">
-        <label>E-mail:&nbsp;</label>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label>E-mail:</label>
         <input type="email" placeholder="email" name="e-mail" id="email">
         <input type="submit" name="submit" id="submit">
       </form>
