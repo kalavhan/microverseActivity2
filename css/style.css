@@ -4,6 +4,7 @@ html{
 body{
     margin: 0;
     padding: 0;
+    padding-bottom: 30px;
 }
 .container {
    max-width: 1280px;
@@ -19,6 +20,7 @@ body{
     position: fixed;
     background-color: #333;
     z-index: 5;
+    padding-bottom: 20px;
 }
 #header{
     position: fixed;
@@ -29,11 +31,12 @@ body{
 }
 .logo{
     position: fixed;
-    width: 40vw;
+    width: 20vw;
     max-height: 2rem;
     z-index: 10;
     margin: 0 !important;
     padding: 0 !important;
+    
 }
 
 #header-img{
@@ -46,6 +49,7 @@ body{
     align-items: center;
     text-align: center;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .navbar {
@@ -58,7 +62,7 @@ body{
 }
 
 .navbar ul{
-    margin: 0;
+    margin: 10px;
     padding:0;
     list-style-type: none;
     right: 0;
@@ -92,6 +96,7 @@ body{
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
 
 #whatwedo{
